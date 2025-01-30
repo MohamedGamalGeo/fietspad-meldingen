@@ -1,0 +1,44 @@
+.layout-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.map-container {
+  width: 50%;
+  height: 500px;
+  float: left;
+}
+
+.form-container {
+  width: 25%;
+  padding: 10px;
+  float: left;
+}
+
+.data-table-container {
+  width: 25%;
+  padding: 10px;
+  float: right;
+  border-left: 1px solid #ddd;
+  overflow-y: auto;
+}
+
+textarea, select, input[type="file"] {
+  font-size: 14px;
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+.location-card {
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.location-image {
+  max-width: 100%;
+  border-radius: 4px;
+}

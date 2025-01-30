@@ -1,0 +1,76 @@
+:root {
+  --box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px;
+}
+
+.loginContainer {
+  display: grid;
+  place-items: center;
+  height: var(--container-height);
+  margin: 0 auto;
+  background-color: var(--background-color);
+}
+
+.loginBox {
+  background: white;
+  border-radius: 10px;
+  padding: 30px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: var(--box-shadow);
+  text-align: center;
+}
+
+.loginBox h1 {
+  font-size: 2rem;
+  color: var(--primary-color);
+  margin-bottom: 10px;
+}
+
+.loginBox p {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.inputField {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.registerPrompt {
+  margin-top: 20px;
+  font-size: 0.9rem;
+}
+
+.registerLink {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.registerLink:hover {
+  text-decoration: underline;
+}
+
+.forgotPassword {
+  margin-top: 10px;
+}
+
+.forgotLink {
+  color: #555;
+  text-decoration: none;
+}
+
+.forgotLink:hover {
+  color: var(--primary-color);
+  text-decoration: underline;
+}
+
+.message {
+  color: red;
+  margin-top: 0.5rem;
+}

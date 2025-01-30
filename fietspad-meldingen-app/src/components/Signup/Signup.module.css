@@ -1,0 +1,62 @@
+:root {
+  --box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px;
+}
+
+.signupContainer {
+  display: grid;
+  place-items: center;
+  height: var(--container-height);
+  margin: 0 auto;
+  background-color: var(--background-color);
+}
+
+.signupBox {
+  background: white;
+  border-radius: 10px;
+  padding: 30px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: var(--box-shadow);
+  text-align: center;
+}
+
+.signupBox h1 {
+  font-size: 2rem;
+  color: var(--primary-color);
+  margin-bottom: 10px;
+}
+
+.signupBox p {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.inputField {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.loginPrompt {
+  margin-top: 20px;
+  font-size: 0.9rem;
+}
+
+.loginLink {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.loginLink:hover {
+  text-decoration: underline;
+}
+
+.message {
+  color: red;
+  margin-top: 0.5rem;
+}

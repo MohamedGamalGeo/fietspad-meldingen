@@ -1,0 +1,135 @@
+/* Dashboard.css */
+
+/* Center the map and table with 90% width */
+.centered-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  #map {
+    width: 90%;
+    height: 500px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd; /* Optional: add a border for better visibility */
+  }
+  
+  table {
+    width: 90%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    font-family: Arial, sans-serif;
+    font-size: small;
+    border: 1px solid #ddd; /* Optional: add a border for better visibility */
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  td img {
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+  }
+  
+  /* Pagination container */
+  .pagination-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  /* Buttons */
+  .pagination-container button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 5px;
+    background-color: #007bff;
+    color: #fff;
+    transition: background-color 0.3s;
+  }
+  
+  .pagination-container button:disabled {
+    background-color: #e0e0e0;
+    cursor: not-allowed;
+  }
+  
+  .pagination-container button:not(:disabled):hover {
+    background-color: #0056b3;
+  }
+  
+  /* Page indicator */
+  .pagination-container span {
+    font-size: 16px;
+    margin: 0 5px;
+  }
+  
+
+/* Chart Section Container */
+.chart-section {
+    width: 90%;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Title for Chart Section */
+  .chart-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  /* Charts Wrapper for Flex Layout */
+  .charts-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  /* Individual Chart Container */
+  .chart-container {
+    width: 80%;
+    flex: 1;
+    min-width: 300px;
+    max-width: 500px;
+  }
+  
+  /* Optional: Styling for Bar Chart and Pie Chart */
+  .bar-chart {
+    width: 45%;
+    height: auto;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .pie-chart {
+    width: 45%;
+    height: auto;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  .solved-row {
+    background-color: #d4edda; /* Green background for solved issues */
+  }
+  
+  .unsolved-row {
+    background-color: #f8d7da; /* Red background for unsolved issues */
+  }
