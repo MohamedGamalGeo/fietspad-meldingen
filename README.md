@@ -123,7 +123,6 @@ Each report opens to a dedicated page showing description, coordinates, timestam
 - Git & GitHub for version control
 - npm for package management
 
-> *Replace the database placeholder with the database you actually used.*
 
 ---
 
@@ -153,7 +152,6 @@ fietspad-meldingen/
 
 - [Node.js](https://nodejs.org/) (v18 or higher)
 - [npm](https://www.npmjs.com/) (bundled with Node.js)
-- *[Database service running locally or remotely]*
 
 ### Installation
 
@@ -252,8 +250,8 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 - [OpenStreetMap](https://www.openstreetmap.org/) contributors for the basemap and cycleway data
 - [Leaflet](https://leafletjs.com/) for the mapping library
+- [Geoserver](https://geoserver.org/) for WMS Publishing
 - *[Full Stack MERN Bootcamp - Matrix Maste ]*
-- *[Any tutorials, libraries, or open data sources that helped]*
 
 ---
 
