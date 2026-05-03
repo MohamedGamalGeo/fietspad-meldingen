@@ -72,31 +72,31 @@ The platform overlays user reports on top of the live cycleway-infrastructure da
 
 A clear entry point introducing the platform, with a "How It Works" video and quick links to sign up or log in.
 
-![Landing page](docs/screenshots/01-landing-page.png)
+![Landing page](docs/01-landing-page.png)
 
 ### Submitting a report
 
 Cyclists locate themselves on the map, write a short description, pick the type of issue, and attach a photo before saving the report.
 
-![Report submission](docs/screenshots/02-report-submission.png)
+![Report submission](docs/02-report-submission.png)
 
 ### Map and insights
 
 The combined view showing every report on the map of the Den Haag cycleway network alongside aggregate insights.
 
-![Map and insights](docs/screenshots/03-map-and-insights.png)
+![Map and insights](docs/03-map-and-insights.png)
 
 ### Admin dashboard
 
 Charts summarising solved vs. unsolved issues per category, plus a paginated table of every report with one-click resolution and Excel export.
 
-![Admin dashboard](docs/screenshots/04-admin-dashboard.png)
+![Admin dashboard](docs/04-admin-dashboard.png)
 
 ### Report details
 
 Each report opens to a dedicated page showing description, coordinates, timestamp, issue type, status, the attached photo, and a toggle to mark it as solved or unsolved.
 
-![Report details](docs/screenshots/05-report-details.png)
+![Report details](docs/05-report-details.png)
 
 ---
 
