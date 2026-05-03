@@ -112,7 +112,8 @@ Each report opens to a dedicated page showing description, coordinates, timestam
 **Backend — `fietspad-meldingen-api`**
 - Node.js
 - Express.js
-- *[Database — e.g. MongoDB / PostgreSQL]*
+- [Database —  MongoDB / PostgreSQL]
+- Geoserver
 - RESTful API architecture
 
 **Data sources**
@@ -229,26 +230,15 @@ image: <file>
 
 ---
 
-## Roadmap
-
-- [ ] Email or push notifications when a report is resolved
-- [ ] Heatmap layer for high-density problem zones
-- [ ] Multi-municipality support beyond Den Haag
-- [ ] Multi-language UI (Dutch / English)
-- [ ] Native mobile app for faster on-the-go reporting
-- [ ] Public read-only API for open-data consumers
-
----
 
 ## Team
 
-This project was developed as **Group 17** for *[Course / Programme name]* at *[University / School]*.
+This project was developed as **Group 17** for *[Full Stack MERN Bootcamp]* at *[Matrix Maste]*.
 
 | Name | Role | GitHub |
 | ---- | ---- | ------ |
-| Mohamed Gamal | *[Role — e.g. Backend & GIS]* | [@MohamedGamalGeo](https://github.com/MohamedGamalGeo) |
-| *[Team member]* | *[Role]* | *[@handle]* |
-| *[Team member]* | *[Role]* | *[@handle]* |
+| Mohamed Omer| *[Role — Backend Developer & Web GIS Developer]* | [@MohamedGamalGeo](https://github.com/MohamedGamalGeo) |
+
 
 ---
 
@@ -262,7 +252,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 - [OpenStreetMap](https://www.openstreetmap.org/) contributors for the basemap and cycleway data
 - [Leaflet](https://leafletjs.com/) for the mapping library
-- *[Course instructors / mentors]*
+- *[Full Stack MERN Bootcamp - Matrix Maste ]*
 - *[Any tutorials, libraries, or open data sources that helped]*
 
 ---
