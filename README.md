@@ -235,7 +235,7 @@ This project was developed as **Group 17** for *[Full Stack MERN Bootcamp]* at *
 
 | Name | Role | GitHub |
 | ---- | ---- | ------ |
-| Mohamed Omer| *[Role — Backend Developer & Web GIS Developer]* | [@MohamedGamalGeo](https://github.com/MohamedGamalGeo) |
+| Mohamed Omer| Role — Backend Developer & Web GIS Developer | [@MohamedGamalGeo](https://github.com/MohamedGamalGeo) |
 
 
 ---
@@ -251,7 +251,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 - [OpenStreetMap](https://www.openstreetmap.org/) contributors for the basemap and cycleway data
 - [Leaflet](https://leafletjs.com/) for the mapping library
 - [Geoserver](https://geoserver.org/) for WMS Publishing
-- *[Full Stack MERN Bootcamp - Matrix Maste ]*
+- Full Stack MERN Bootcamp - Matrix Master
 
 ---
 
