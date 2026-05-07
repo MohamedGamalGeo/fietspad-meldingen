@@ -4,7 +4,6 @@
 
 > A full-stack web platform that lets cyclists report issues on cycling paths in the Netherlands — potholes, slippery surfaces, poor lighting, blocked routes — and gives municipalities a real-time map and dashboard to monitor and resolve them.
 
-![Status](https://img.shields.io/badge/status-active-success)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 ![JavaScript](https://img.shields.io/badge/JavaScript-82.2%25-yellow)
 ![React](https://img.shields.io/badge/React-frontend-61DAFB)
